@@ -18,4 +18,4 @@ The goal is to practice data analysis skills and visualize results in a clear wa
   # Images:
   ![Bar Graph](Candy-Data-Analysis/Bar Graph.png)
   ![Barh Graph](Candy-Data-Analysis/Barh Graph.png)
-  ![Donate Pie Chart]()
+  ![Donate Pie Chart](Candy-Data-Analysis/Donate Pie Chart.png)
