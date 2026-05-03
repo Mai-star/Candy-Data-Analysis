@@ -16,4 +16,5 @@ The goal is to practice data analysis skills and visualize results in a clear wa
 - Visualized trends in candy features
 - Generated charts to support analysis
   # Images:
-  ![Chart]()
+  ![Bar Graph](Candy-Data-Analysis/Bar Graph.png)
+  ![Barh Graph]()
