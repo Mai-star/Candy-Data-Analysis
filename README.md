@@ -1,12 +1,12 @@
 # 🍬 Halloween Candy Hierarchy Analysis
 
 ## 📊 Project Overview
-This project delves into the **Halloween Candy Hierarchy 2017** dataset, a fascinating survey capturing consumer sentiments (Joy, Despair, or Meh) toward various candies. Our analysis explores the demographic factors influencing sweet preferences and establishes a definitive "Power Ranking" for the Halloween season.
+This project analyzes the **Halloween Candy Hierarchy 2017** dataset, a survey capturing consumer sentiments (Joy, Despair, or Meh) towards various candies. The analysis explores demographic factors influencing candy preferences and establishes a "Power Ranking" for the Halloween season.
 
 ---
 
 ## 📂 Dataset Source
-The data is derived from the **Science Creative Quarterly's** annual survey, hosted on **Kaggle**:
+The data is from the **Science Creative Quarterly's** annual survey, hosted on **Kaggle**:
 🔗 [Halloween Candy Hierarchy Dataset](https://www.kaggle.com/datasets/seifmohmed/candy-data)
 
 ---
@@ -14,41 +14,36 @@ The data is derived from the **Science Creative Quarterly's** annual survey, hos
 ## 🔍 Key Insights & Visualizations
 
 ### 1. Demographic Profile
-Understanding *who* participated in the survey is the first step in contextualizing the candy preferences.
+Understanding the survey participants is crucial for contextualizing candy preferences.
 
-*   **Gender Breakdown:** The survey saw a diverse participation, with **59% Male** and **35% Female** respondents.
-*   **Age Trends:** Most participants fall within the **30s to 40s** age bracket, representing a significant segment of the candy-purchasing public.
-*   **Visualization:** The histogram below shows the distribution of key candy attributes across the dataset.
+*   **Gender Breakdown:** The survey included **59% Male** and **35% Female** respondents.
+*   **Age Trends:** Most participants were in the **30s to 40s** age bracket.
 
-![Candy Attributes Distribution](Candy-Data-Analysis/Histogram.png)
-*Caption: Analyzing the frequency of specific candy characteristics reported by survey participants.*
+![Age Distribution](Candy-Data-Analysis/Histogram.png)
+*Caption: توزيع الأعمار للمشاركين في الاستبيان.* 
 
 ---
 
 ### 2. The Ultimate "Power Ranking"
-Which candies are the champions of Halloween, and which ones are met with "Despair"?
+This section identifies the most and least popular candies.
 
-*   **The Winners:** Full-sized chocolate bars and **Reese's Peanut Butter Cups** consistently earn the highest "Joy" ratings.
-*   **The Losers:** Generic items like "Anonymous brown globs" and non-candy handouts receive the most "Despair" votes.
-*   **Visualization:** Comparative rankings of popular candy types and their core features.
+*   **The Winners:** Full-sized chocolate bars and **Reese's Peanut Butter Cups** received the highest "Joy" ratings.
+*   **The Losers:** Generic items like "Anonymous brown globs" and non-candy handouts received the most "Despair" votes.
 
 | Popularity Ranking | Feature Analysis |
 | :---: | :---: |
-| ![Candy Popularity](Candy-Data-Analysis/Bar-Graph.png) | ![Candy Features](Candy-Data-Analysis/Barh-Graph.png) |
-| *Identifying the top-tier candies that bring the most "Joy".* | *Analyzing which features correlate with consumer preference.* |
+| ![Candy Popularity](Candy-Data-Analysis/Bar-Graph.png) | ![Most Loved Chocolate](Candy-Data-Analysis/Barh-Graph.png) |
+| *تصنيف الحلوى الأكثر شعبية.* | *أنواع الشوكولاتة الأكثر تفضيلاً.* |
 
 ---
 
 ### 3. Consumer Sentiment & Behavior
-We analyzed how participants make choices, including their hypothetical donation preferences.
+Analysis of how participants make choices, including donation preferences.
 
-*   **Donation Insight:** When asked how they would prefer to donate candy, the responses provided a window into altruistic consumer behavior within the context of sweets.
-*   **Visualization:** Sentiment distribution regarding candy types and donation choices.
-
-| Donation Preferences | Sentiment Distribution |
+| Donation Preferences | Gender Distribution |
 | :---: | :---: |
-| ![Donation Pie Chart](Candy-Data-Analysis/Donate-Pie-Chart.png) | ![Sentiment Pie Chart](Candy-Data-Analysis/Pie-Chart.png) |
-| *Visualizing how respondents choose to share their Halloween haul.* | *The overall balance of Joy vs. Despair across all candy categories.* |
+| ![Donation Preferences](Candy-Data-Analysis/Donate-Pie-Chart.png) | ![Gender Distribution](Candy-Data-Analysis/Pie-Chart.png) |
+| *تفضيلات المشاركين للتبرع بالحلوى.* | *توزيع المشاركين حسب الجنس.* |
 
 ---
 
@@ -60,4 +55,4 @@ We analyzed how participants make choices, including their hypothetical donation
 ---
 
 ## 💡 Conclusion
-The 2017 Candy Hierarchy confirms that **brand-name chocolate** remains the undisputed king of Halloween. Conversely, non-candy items or generic sweets are overwhelmingly rejected. These insights are valuable for retailers and brands looking to understand the seasonal candy market.
+The 2017 Candy Hierarchy confirms that **brand-name chocolate** is highly preferred. Non-candy items or generic sweets are generally rejected. These insights are valuable for understanding the seasonal candy market.
