@@ -14,17 +14,25 @@ The data is based on the **Science Creative Quarterly's** annual survey, availab
 ### 🛠️ Key Files
 - **`candy-data-visualization.ipynb`**: The Jupyter Notebook containing the full data pipeline (Cleaning -> EDA -> Visualization).
 - **`candy_hierarchy_2017.xlsx`**: The original survey data in Excel format.
-- **`Histogram.png`, `Donate-Pie-Chart.png`, etc.**: Key charts showing age distribution and survey responses.
 
 ---
 
 ### 🔍 Key Findings & Insights
 Based on the analysis of **2,400+** survey responses:
 
-- **Demographics:** **59%** of respondents were **Male**, while **35%** were **Female**, with the majority of participants being in their **30s and 40s**.
-- **The "Joy" Leaders:** Full-sized candy bars and Reese's Peanut Butter Cups consistently ranked highest in the "Joy" category.
-- **The "Despair" Leaders:** Items like "Anonymous brown globs" (Mary Janes) and "Broken pieces of candy" received the highest "Despair" ratings.
-- **Geographic Reach:** The vast majority of responses came from the **USA**, followed by **Canada** and the **UK**.
+#### 1. Demographics & Distribution
+**59%** of respondents were **Male**, while **35%** were **Female**, with the majority of participants being in their **30s and 40s**.
+![Histogram of Candy Attributes](Candy-Data-Analysis/Histogram.png)
+
+#### 2. The "Power Ranking"
+Full-sized candy bars and Reese's Peanut Butter Cups consistently ranked highest in the "Joy" category, while items like "Anonymous brown globs" received the highest "Despair" ratings.
+![Bar Graph of Popular Candy Types](Candy-Data-Analysis/Bar-Graph.png)
+![Barh Graph of Candy Features](Candy-Data-Analysis/Barh-Graph.png)
+
+#### 3. Consumer Behavior
+Explored specific preferences, such as how people would prefer to donate candy, providing insights into consumer behavior.
+![Pie Chart of Candy Donation Preferences](Candy-Data-Analysis/Donate-Pie-Chart.png)
+![Pie Chart of Overall Candy Type Distribution](Candy-Data-Analysis/Pie-Chart.png)
 
 ---
 
