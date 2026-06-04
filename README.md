@@ -47,12 +47,6 @@ Analysis of how participants make choices, including donation preferences.
 
 ---
 
-## 🛠️ Tech Stack
-*   **Language:** Python (Pandas, NumPy)
-*   **Visualization:** Matplotlib, Seaborn
-*   **Environment:** Jupyter Notebook
-
----
 
 ## 💡 Conclusion
 The 2017 Candy Hierarchy confirms that **brand-name chocolate** is highly preferred. Non-candy items or generic sweets are generally rejected. These insights are valuable for understanding the seasonal candy market.
