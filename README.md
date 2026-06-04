@@ -1,58 +1,58 @@
-# 🍬 Halloween Candy Hierarchy Analysis
+# 🍬 تحليل هرمية حلوى الهالوين
 
-## 📊 Project Overview
-This project analyzes the **Halloween Candy Hierarchy 2017** dataset, a survey capturing consumer sentiments (Joy, Despair, or Meh) towards various candies. The analysis explores demographic factors influencing candy preferences and establishes a "Power Ranking" for the Halloween season.
-
----
-
-## 📂 Dataset Source
-The data is from the **Science Creative Quarterly's** annual survey, hosted on **Kaggle**:
-🔗 [Halloween Candy Hierarchy Dataset](https://www.kaggle.com/datasets/seifmohmed/candy-data)
+## 📊 نظرة عامة على المشروع
+يهدف هذا المشروع إلى تحليل مجموعة بيانات **Halloween Candy Hierarchy 2017**، وهي دراسة استقصائية تلتقط مشاعر المستهلكين (فرح، يأس، أو محايد) تجاه أنواع مختلفة من الحلوى. يستكشف التحليل العوامل الديموغرافية التي تؤثر على تفضيلات الحلوى ويحدد "تصنيف القوة" لموسم الهالوين.
 
 ---
 
-## 🔍 Key Insights & Visualizations
-
-### 1. Demographic Profile
-Understanding the survey participants is crucial for contextualizing candy preferences.
-
-*   **Gender Breakdown:** The survey included **59% Male** and **35% Female** respondents.
-*   **Age Trends:** Most participants were in the **30s to 40s** age bracket.
-
-![Age Distribution](Candy-Data-Analysis/Histogram.png)
-*Caption: توزيع الأعمار للمشاركين في الاستبيان.* 
+## 📂 مصدر البيانات
+البيانات مأخوذة من الاستبيان السنوي لـ **Science Creative Quarterly**، والمستضاف على **Kaggle**:
+🔗 [مجموعة بيانات هرمية حلوى الهالوين](https://www.kaggle.com/datasets/seifmohmed/candy-data)
 
 ---
 
-### 2. The Ultimate "Power Ranking"
-This section identifies the most and least popular candies.
+## 🔍 رؤى رئيسية وتصورات
 
-*   **The Winners:** Full-sized chocolate bars and **Reese's Peanut Butter Cups** received the highest "Joy" ratings.
-*   **The Losers:** Generic items like "Anonymous brown globs" and non-candy handouts received the most "Despair" votes.
+### 1. الملف الديموغرافي
+فهم المشاركين في الاستبيان أمر بالغ الأهمية لتحديد سياق تفضيلات الحلوى.
 
-| Popularity Ranking | Feature Analysis |
+*   **توزيع الجنس:** شمل الاستبيان **59% ذكور** و **35% إناث**.
+*   **اتجاهات العمر:** كان معظم المشاركين في الفئة العمرية من **30 إلى 40 عامًا**.
+
+![توزيع الأعمار للمشاركين في الاستبيان](Candy-Data-Analysis/Histogram.png)
+*التقنيات المستخدمة: Matplotlib, Seaborn*
+
+---
+
+### 2. "تصنيف القوة" النهائي
+يحدد هذا القسم الحلوى الأكثر والأقل شعبية.
+
+*   **الفائزون:** ألواح الشوكولاتة بالحجم الكامل و **Reese's Peanut Butter Cups** حصلت على أعلى تقييمات "الفرح".
+*   **الخاسرون:** العناصر العامة مثل "كرات بنية مجهولة" والهدايا غير الحلوى حصلت على معظم أصوات "اليأس".
+
+| تصنيف الشعبية | تحليل الميزات |
 | :---: | :---: |
-| ![Candy Popularity](Candy-Data-Analysis/Bar-Graph.png) | ![Most Loved Chocolate](Candy-Data-Analysis/Barh-Graph.png) |
-| *تصنيف الحلوى الأكثر شعبية.* | *أنواع الشوكولاتة الأكثر تفضيلاً.* |
+| ![توزيع الدول المشاركة في الاستبيان](Candy-Data-Analysis/Bar-Graph.png) | ![أنواع الشوكولاتة الأكثر تفضيلاً](Candy-Data-Analysis/Barh-Graph.png) |
+| *التقنيات المستخدمة: Matplotlib, Seaborn* | *التقنيات المستخدمة: Matplotlib, Seaborn* |
 
 ---
 
-### 3. Consumer Sentiment & Behavior
-Analysis of how participants make choices, including donation preferences.
+### 3. مشاعر وسلوك المستهلك
+تحليل كيفية اتخاذ المشاركين للخيارات، بما في ذلك تفضيلات التبرع.
 
-| Donation Preferences | Gender Distribution |
+| تفضيلات التبرع | توزيع الجنس |
 | :---: | :---: |
-| ![Donation Preferences](Candy-Data-Analysis/Donate-Pie-Chart.png) | ![Gender Distribution](Candy-Data-Analysis/Pie-Chart.png) |
-| *تفضيلات المشاركين للتبرع بالحلوى.* | *توزيع المشاركين حسب الجنس.* |
+| ![تفضيلات المشاركين للتبرع بالحلوى](Candy-Data-Analysis/Donate-Pie-Chart.png) | ![توزيع المشاركين حسب الجنس](Candy-Data-Analysis/Pie-Chart.png) |
+| *التقنيات المستخدمة: Matplotlib, Seaborn* | *التقنيات المستخدمة: Matplotlib, Seaborn* |
 
 ---
 
-## 🛠️ Tech Stack
-*   **Language:** Python (Pandas, NumPy)
-*   **Visualization:** Matplotlib, Seaborn
-*   **Environment:** Jupyter Notebook
+## 🛠️ التقنيات المستخدمة
+*   **اللغة:** Python (Pandas, NumPy)
+*   **التصور:** Matplotlib, Seaborn
+*   **البيئة:** Jupyter Notebook
 
 ---
 
-## 💡 Conclusion
-The 2017 Candy Hierarchy confirms that **brand-name chocolate** is highly preferred. Non-candy items or generic sweets are generally rejected. These insights are valuable for understanding the seasonal candy market.
+## 💡 الخلاصة
+يؤكد تحليل هرمية الحلوى لعام 2017 أن **الشوكولاتة ذات العلامات التجارية المعروفة** مفضلة للغاية. يتم رفض العناصر غير الحلوى أو الحلويات العامة بشكل عام. هذه الرؤى قيمة لفهم سوق الحلوى الموسمي.
